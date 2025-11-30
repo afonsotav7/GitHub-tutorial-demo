@@ -1,5 +1,10 @@
-#Validações de formulário
+# Funções de validação de formulário
 
 def validar_email(email):
-  #TODO: Implementar validação
-  pass
+    """Valida se o email é válido"""
+    return "@" in email and "." in email
+
+def validar_telefone(telefone):
+    """Valida se o telefone é válido"""
+    # TODO: Implementar validação
+    return True
